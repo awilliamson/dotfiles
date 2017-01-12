@@ -1,0 +1,100 @@
+URxvt*.depth: 32
+URxvt*.background: [80]#101010
+!!URxvt*.foreground: #ffffff
+!!URxvt*.scrollstyle: plain
+!!URxvt*.scrollBar: false
+!!URxvt*.saveLines: 8192
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt.fading:               0
+URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            50
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+
+! Fonts
+URxvt.allow_bold:           false
+/* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
+! URxvt*font: xft:Monospace:pixelsize=14
+URxvt*font: xft:DejaVu Sans Mono for Powerline:pixelsize=12
+!URxvt*boldFont: xft:Monospace:pixelsize=14
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher,clipboard,vtwheel
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+!! source: https://github.com/spazzpp2/dotfiles/blob/29819a5ac5e451bfa39bc324378aa508ef75cae8/Molokai.xrdb
+
+! Molokai theme
+URxvt*background: #101010
+URxvt*foreground: #d0d0d0
+URxvt*color0: #101010
+URxvt*color1: #960050
+URxvt*color2: #66aa11
+URxvt*color3: #c47f2c
+URxvt*color4: #30309b
+URxvt*color5: #7e40a5
+URxvt*color6: #3579a8
+URxvt*color7: #9999aa
+URxvt*color8: #303030
+URxvt*color9: #ff0090
+URxvt*color10: #80ff00
+URxvt*color11: #ffba68
+URxvt*color12: #5f5fee
+URxvt*color13: #bb88dd
+URxvt*color14: #4eb4fa
+URxvt*color15: #d0d0d0
+
+#Perl Shit
+#URxvt.perl-lib: /usr/lib/urxvt/urvxt-perl
+URxvt.perl-ext-common: default, keyboard-select, url-select
+URxvt.keysym.M-Escape: perl:keyboard-select:active
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.button: 2
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+ 
+URxvt.iso14755: False
+
+Xcursor.size: 16
+
