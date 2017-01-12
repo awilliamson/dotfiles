@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES="bashrc Xresources config/nvim config/compton.conf tmux.conf mutt/muttrc"
+FILES="bashrc Xprofile Xresources bin  i3 config/nvim config/fish config/conky config/compton.conf"
 
 mkdir -p ~/dotfiles_old
 cd ~/dotfiles
