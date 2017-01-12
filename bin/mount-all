@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo ntfs-3g /dev/sdb1 ~/dave_sdb1
+sudo ntfs-3g /dev/sdc2 ~/orion_sdc2
+sudo ntfs-3g /dev/sda1 ~/mono_sda1
+sudo ntfs-3g /dev/sdd1 ~/pass_sdd1
+

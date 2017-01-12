@@ -1,0 +1,16 @@
+ #!/bin/bash
+  BRANCH=beta
+   #BRANCH=304xx
+    
+    NVIDIA="nvidia-$BRANCH"
+     _NVIDIA="$(pacman -Qqs ^${NVIDIA}$)"
+      NOUVEAU="xf86-video-nouveau mesa-libgl"
+       _NOUVEAU="$(pacman -Qqs ^mesa-libgl$)"
+        
+        if [[ ! $_NVIDIA ]]; then
+		     pacman -Rdds "$NOUVEAU"
+		          yaourt -S "$NVIDIA" lib32-nvidia-libgl lib32-nvidia-utils
+			   elif [[ ! $_NOUVEAU ]]; then
+				        pacman -Rdds "$_NVIDIA" lib32-nvidia-libgl lib32-nvidia-utils
+					     pacman -S "$NOUVEAU" lib32-mesa-libgl
+					      fi
