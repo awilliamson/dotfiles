@@ -1,0 +1,4 @@
+# Ignore Everything, except Vundle.vim
+*
+!.gitignore
+!bundle/Vundle.vim/*
