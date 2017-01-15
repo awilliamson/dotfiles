@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES="bashrc Xprofile Xresources bin  i3 config/nvim config/fish config/conky config/compton.conf"
+FILES="bashrc Xprofile Xresources bin i3 config/nvim config/fish config/conky config/compton.conf"
 
 mkdir -p ~/dotfiles_old
 cd ~/dotfiles
