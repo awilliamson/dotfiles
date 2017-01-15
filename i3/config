@@ -211,7 +211,7 @@ focus_follows_mouse no
 exec urxvtd
 
 bar {
-	status_command $HOME/bin/conky-i3bar
+	status_command $HOME/.bin/conky-i3bar
 	#status_command i3status	
 
 	tray_output primary
