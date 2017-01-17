@@ -15,6 +15,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'szw/vim-tags'
 Plugin 'scrooloose/nerdtree'
+Plugin 'jmcantrell/vim-virtualenv'
 
 call vundle#end()
 
