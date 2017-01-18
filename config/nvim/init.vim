@@ -70,5 +70,3 @@ set pastetoggle=<F2>
 set showmode
 set hidden
 set number
-let g:enable_ycm_at_startup = 0
-
