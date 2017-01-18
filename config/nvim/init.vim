@@ -33,7 +33,8 @@ let g:molokai_original = 1
 set foldmethod=syntax
 
 syntax enable
-colorscheme molokai
+set t_Co=256   " This is may or may not needed.
+colorscheme PaperColor
 set background=dark
 
 filetype plugin on
