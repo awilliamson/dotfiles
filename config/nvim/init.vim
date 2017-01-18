@@ -13,9 +13,11 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'benekastah/neomake'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'szw/vim-tags'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'zchee/deoplete-jedi'
 
 call vundle#end()
 
@@ -65,4 +67,6 @@ inoremap <F10> <esc>mz:write<cr>:make<cr><cr>`zi
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+set hidden
 let g:enable_ycm_at_startup = 0
+
