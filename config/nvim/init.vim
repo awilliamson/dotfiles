@@ -46,9 +46,6 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 
-let g:ycm_key_list_select_completion = ["<c-k>"]
-let g:ycm_key_list_previous_completion = ["<c-j>"]
-
 let g:airline_powerline_fonts = 1
 let g:airline_theme="bubblegum"
 set laststatus=2
