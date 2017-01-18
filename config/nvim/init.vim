@@ -18,6 +18,8 @@ Plugin 'szw/vim-tags'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'zchee/deoplete-jedi'
+Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'hdima/python-syntax'
 
 call vundle#end()
 
