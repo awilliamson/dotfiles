@@ -10,6 +10,7 @@ alias cmake-eclipse='cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE
 alias venv_tf='source ~/.virtualenvs/tensorflow/bin/activate.fish'
 
 set -x VISUAL nvim
+set -x EDITOR nvim
 set -x PATH $HOME/.rvm/gems/ruby-1.9.3-p551/bin $HOME/.gem/ruby/2.3.0/bin $PATH
 
 export GTK_MODULES=
