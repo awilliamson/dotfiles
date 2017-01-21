@@ -74,3 +74,6 @@ set showmode
 set hidden
 set number
 let mapleader="\<SPACE>"
+
+"For creating a terminal vsplit, and entering it
+nnoremap <Leader>tf :vsp<CR><C-W><C-L>:edit term://fish<CR>i
