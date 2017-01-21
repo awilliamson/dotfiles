@@ -66,6 +66,9 @@ noremap <Right> <NOP>
 inoremap <F10> <esc>mz:write<cr>:make<cr><cr>`zi
 
 nnoremap <F2> :set invpaste paste?<CR>
+
+tnoremap <Esc> <C-\><C-n>
+
 set pastetoggle=<F2>
 set showmode
 set hidden
