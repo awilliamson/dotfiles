@@ -73,3 +73,4 @@ set pastetoggle=<F2>
 set showmode
 set hidden
 set number
+let mapleader="\<SPACE>"
