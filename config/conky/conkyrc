@@ -38,8 +38,8 @@ show_graph_range no
 
 TEXT
 [
-{ "full_text" : "Up ${upspeed enp8s0}", "color" : "\#ffaa33" },
-{ "full_text" : "Down ${downspeed enp8s0}", "color" : "\#ffaa33" },
+{ "full_text" : "Up ${upspeed enp0s31f6}", "color" : "\#ffaa33" },
+{ "full_text" : "Down ${downspeed enp0s31f6}", "color" : "\#ffaa33" },
 { "full_text" : "Uptime $uptime_short", "color" : "\#ffffff" },
 { "full_text" : "RAM ${mem}/${memmax}", "color" : ${if_match ${memperc}<90}"\#ffffff"${else}"\#ff0000"${endif} },
 {"full_text": "GPU [${exec nvidia-settings -q gpucoretemp -t}°C]","color":"\#33CC99"},
