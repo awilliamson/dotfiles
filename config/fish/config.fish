@@ -12,6 +12,7 @@ alias venv_tf='source ~/.virtualenvs/tensorflow/bin/activate.fish'
 set -x VISUAL nvim
 set -x EDITOR nvim
 set -x PATH $HOME/.rvm/gems/ruby-1.9.3-p551/bin $HOME/.gem/ruby/2.3.0/bin $PATH
+set -x __GL_SYNC_TO_VBLANK 0
 
 export GTK_MODULES=
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/
