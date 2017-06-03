@@ -80,3 +80,5 @@ nnoremap <Leader>tf :vsp<CR><C-W><C-L>:edit term://fish<CR>i
 
 "For quick buffer back-and-forth
 nnoremap <C-B> :b#<CR>
+
+let g:deoplete#sources#jedi#show_docstring=1
