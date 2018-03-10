@@ -9,6 +9,8 @@ alias prolog='swipl'
 alias cmake-eclipse='cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug'
 alias venv_tf='source ~/.virtualenvs/tensorflow/bin/activate.fish'
 alias prometheus='ssh -A -t -p 978 ashley@185.35.77.23 ssh -A -p 35722 ashley@localhost'
+alias vpnon='sudo systemctl start openvpn-client@client'
+alias vpnoff='sudo systemctl stop openvpn-client@client'
 
 set -x VISUAL nvim
 set -x EDITOR nvim
