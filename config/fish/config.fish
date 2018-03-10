@@ -11,6 +11,8 @@ alias venv_tf='source ~/.virtualenvs/tensorflow/bin/activate.fish'
 alias prometheus='ssh -A -t -p 978 ashley@185.35.77.23 ssh -A -p 35722 ashley@localhost'
 alias vpnon='sudo systemctl start openvpn-client@client'
 alias vpnoff='sudo systemctl stop openvpn-client@client'
+alias hyperion='ssh -A -J ashley@185.35.77.23:978,ashley@localhost:35722 ashley@10.5.60.141'
+alias tunnel='ssh -L 9576:127.0.0.1:22 -A -J ashley@185.35.77.23:978,ashley@127.0.0.1:35722 ashley@10.5.60.141 -f -N; and sshfs -p 9576 ashley@localhost:/ ~/gpu'
 
 set -x VISUAL nvim
 set -x EDITOR nvim
