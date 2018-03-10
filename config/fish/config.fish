@@ -12,7 +12,7 @@ alias prometheus='ssh -A -t -p 978 ashley@185.35.77.23 ssh -A -p 35722 ashley@lo
 
 set -x VISUAL nvim
 set -x EDITOR nvim
-set -x PATH $HOME/.rvm/gems/ruby-1.9.3-p551/bin $HOME/.gem/ruby/2.3.0/bin $PATH
+set -x PATH $HOME/.rvm/gems/ruby-1.9.3-p551/bin $HOME/.gem/ruby/2.3.0/bin ~/.pub-cache/bin $PATH
 set -x LD_LIBRARY_PATH $LD_LIBRARY_PATH /opt/cuda/extras/CUPTI/lib64/
 set -x __GL_SYNC_TO_VBLANK 0
 
