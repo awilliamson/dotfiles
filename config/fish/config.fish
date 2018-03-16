@@ -13,7 +13,7 @@ alias vpnon='sudo systemctl start openvpn-client@client'
 alias vpnoff='sudo systemctl stop openvpn-client@client'
 alias hyperion='ssh -A -J ashley@185.35.77.23:978,ashley@localhost:35722 ashley@10.5.60.141'
 alias tunnel='ssh -L 9576:127.0.0.1:22 -A -J ashley@185.35.77.23:978,ashley@127.0.0.1:35722 ashley@10.5.60.141 -f -N; and sshfs -p 9576 ashley@localhost:/ ~/gpu'
-alias seth_rsync='sudo rsync -aAXv --numeric-ids --info=progress2 --exclude={"/swapfile","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} -e "ssh -p 978" --rsync-path="sudo rsync" ashley@inp.io:/ /backup/seth/'
+alias seth_rsync='sudo rsync -aAXv --numeric-ids --info=progress2 --exclude={"/swapfile","/movies/","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} -e "ssh -p 978" --rsync-path="sudo rsync" ashley@inp.io:/ /backup/seth/'
 
 set -x VISUAL nvim
 set -x EDITOR nvim
