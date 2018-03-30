@@ -234,7 +234,6 @@ bar {
 new_window none
 new_float none
 hide_edge_borders both
-#exec feh --bg-fill ~/Pictures/58.jpg
-exec feh --bg-max --no-xinerama "$(find ~/Backgrounds/3840x1080/|shuf|head -n 1 )"
+exec feh --bg-max "$(find ~/Backgrounds/1440p_new/)|shuf|head -n 1)"
 exec github-notify -c ~/.config/github-notify/config.json
 for_window [class="net-sourceforge-jnlp-runtime-Boot" instance="sun-awt-X11-XFramePeer"] floating enable
