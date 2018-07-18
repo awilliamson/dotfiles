@@ -16,6 +16,13 @@ alias tunnel='ssh -L 9576:127.0.0.1:22 -A -J ashley@185.35.77.23:978,ashley@127.
 alias seth_rsync='sudo rsync -aAXv --numeric-ids --info=progress2 --exclude={"/swapfile","/movies/","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} -e "ssh -p 978" --rsync-path="sudo rsync" ashley@inp.io:/ /backup/seth/'
 alias hyperion_rsync="sudo rsync -aAXv --numeric-ids --info=progress2 -e 'ssh -p 9576 -i /home/radon/.ssh/id_rsa' --rsync-path='sudo rsync' ashley@localhost:/home/ashley/GitHubTests /backup/hyperion/"
 
+alias h-connect='~/vpn-connect.exp'
+alias hvpn="ssh ashley@150.237.89.49"
+alias hvpn-mount="sshfs ashley@150.237.89.49:/ ~/gpu"
+alias hvpn-tb="ssh -L 6006:127.0.0.1:6006 ashley@150.237.89.49 -f -N"
+alias hvpn-nb="ssh -L 8888:127.0.0.1:8888 ashley@150.237.89.49 -f -N"
+alias hvpn-nas="ssh ashley@150.237.96.71"
+alias hvpn-nas-mount="sshfs ashley@150.237.96.71:/ ~/nas"
 
 set -x VISUAL nvim
 set -x EDITOR nvim
