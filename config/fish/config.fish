@@ -1,7 +1,7 @@
 alias ls='ls --color=auto'
 alias inp='ssh -p 978 ashley@inp.io'
 alias minp='sshfs -p 978 ashley@inp.io:/ ~/seth'
-alias moffice='sshfs -p 35722 ashley@inp.io:/home/ashley ~/backdoor'
+alias moffice='sshfs -o allow_other -p 35722 ashley@inp.io:/home/ashley ~/backdoor'
 alias seedbox='sshfs awilliamson@46.166.143.67:/home31/awilliamson/ ~/seedbox'
 alias mpass='sudo ntfs-3g /dev/sdd1 ~/pass'
 alias top='htop'
