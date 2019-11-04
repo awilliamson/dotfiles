@@ -156,7 +156,7 @@ bindsym $mod+r mode "resize"
 #}
 
 #Thunar
-bindsym $mod+o exec thunar
+bindsym $mod+o exec nemo
 
 # Move the current workspace to the next output
 # # (effectively toggles when you only have two outputs)
@@ -166,12 +166,12 @@ bindsym $mod+z move workspace to output left
 
 # Decide which workspace goes where
 
-workspace 1 output DVI-I-1
-workspace 2 output DVI-D-0
-workspace 3 output DVI-I-1
-workspace 4 output DVI-D-0
-workspace 5 output DVI-I-1
-workspace 6 output DVI-D-0
+workspace 1 output DP-2
+workspace 2 output DP-4.8
+workspace 3 output DP-2
+workspace 4 output DP-4.8
+workspace 5 output DP-2
+workspace 6 output DP-4.8
 
 #workspace 1 output DVI-D-0
 #workspace 2 output DVI-I-1
@@ -182,9 +182,9 @@ workspace 6 output DVI-D-0
 
 
 assign [class="^Steam$"] 3
-assign [class="^Teamspeak 3$"] 2
-#assign [class="^Chromium$"] 1
-#assign [class="^pavucontrol$"] 4
+assign [class="^discord$"] 2
+assign [class="^google-chrome-beta$"] 1
+assign [class="^thunderbird$"] 4
 
 # Mouse Stuff
 focus_follows_mouse no
@@ -231,9 +231,13 @@ bar {
 
 }
 
+gaps inner 25
+gaps outer 0
+
 new_window none
 new_float none
 hide_edge_borders both
 exec feh --bg-max "$(find ~/Backgrounds/1440p_new/)|shuf|head -n 1)"
 exec github-notify -c ~/.config/github-notify/config.json
+exec nvidia-settings --assign GPULogoBrightness=0
 for_window [class="net-sourceforge-jnlp-runtime-Boot" instance="sun-awt-X11-XFramePeer"] floating enable

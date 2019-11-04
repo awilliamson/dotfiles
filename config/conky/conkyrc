@@ -42,6 +42,8 @@ conky.config = {
 --{"full_text": "GPU [${exec nvidia-settings -q gpucoretemp -t}°C]","color":"\#33CC99"},
 --{"full_text": "CPU [${exec sensors | sed -n "s/^Package\ id[^+]*+\\([0-9]\\+\\.[0-9]\\+\\).*/\\1/p"}°C]","color":"\#549bc5"},
 
+--{ "full_text" : "P: ${exec wattmeter} W", "color" : "\#80b3ff" },
+
 conky.text = [[
 [
 { "full_text" : "Up ${upspeed enp0s31f6}", "color" : "\#ffaa33" },

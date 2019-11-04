@@ -1,0 +1,1 @@
+/home/radon/.config/fisherman/bobthefish/fish_title.fish

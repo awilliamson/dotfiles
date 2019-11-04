@@ -24,3 +24,7 @@ export OPENNI2_INCLUDE=/home/radon/XtionSDK/Linux_64/OpenNI-Linux-x64-2.2/Includ
 export OPENNI2_REDIST=/home/radon/XtionSDK/Linux_64/OpenNI-Linux-x64-2.2/Redist
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export http_proxy=''
+export https_proxy=''
+export ftp_proxy=''
+export socks_proxy=''
